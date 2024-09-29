@@ -9,7 +9,7 @@ const TempWindow = () => {
     
     const generateText = async () => {
         try {
-            const response = await axios.post('http://localhost:5001/prompt', {prompt});
+            const response = await axios.post('https://ideaboard.onrender.com/prompt', {prompt});
             setResult(response.data.answer);
         } catch(err) {
             console.log(err);
