@@ -27,7 +27,7 @@ export default function Navbar() {
             <a href="#" className="text-gray-400 hover:text-white transition-colors">
               Contact
             </a>
-            <button className="px-4 py-2 text-gray-400 rounded-full border border-gray-700 hover:bg-gray-800 hover:text-white transition-colors">
+            <button className="px-4 py-2 text-gray-400 rounded-full border border-gray-700 hover:bg-gray-600 hover:text-white transition-colors">
               Log in
             </button>
             <button className="px-4 py-2 bg-white text-black rounded-full border hover:bg-gray-200 transition-colors">
